@@ -21,3 +21,5 @@ RUN groupadd hugo \
 USER hugo
 
 WORKDIR ${HOME}
+
+EXPOSE 1313
